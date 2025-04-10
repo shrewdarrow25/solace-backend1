@@ -1,2 +1,2 @@
-Flask==x.x.x
-gunicorn==x.x.x
+Flask==2.2.3    # Or any compatible version of Flask
+gunicorn==20.1.0  # Gunicorn for production server
