@@ -1,1 +1,10 @@
+services:
+  - type: web
+    name: solace-backend1
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
 
